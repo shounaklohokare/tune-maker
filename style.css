@@ -27,11 +27,11 @@ i, svg{
 }
 
 .kick-pad{
-    background: rgb(255, 98, 98);
+    background: rgb(245, 118, 118);
 }
 
 .kick-pad.active{
-    background: rgb(236, 65, 65);
+    background: rgb(218, 21, 21);
 }
 
 .snare-pad{
@@ -43,11 +43,11 @@ i, svg{
 }
 
 .hihat-pad{
-    background: rgb(235, 235, 73);
+    background: rgb(150, 255, 144);
 }
 
 .hihat-pad.active{
-    background: rgb(202, 202, 55);
+    background: rgb(23, 157, 16);
 }
 
 .hihat-tune, .snare-tune, .kick-tune{
