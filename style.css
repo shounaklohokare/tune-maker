@@ -17,7 +17,9 @@ i, svg{
     pointer-events: none;
 }
 
-
+.mute.active{
+    background-color: rgb(219, 214, 214);
+}
 
 .kick-pad, .snare-pad, .hihat-pad{
     width: 5rem;
@@ -87,6 +89,8 @@ h1{
 .pad{
     transition: all 0.5s ease;
 }
+
+
 
 .play{
     padding: 1rem 2rem;
