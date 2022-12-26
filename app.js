@@ -135,7 +135,7 @@ class DrumKit{
 
 const drumKit = new DrumKit();
 
-// drumKit.start();
+
 
 drumKit.pads.forEach(pad => {
     pad.addEventListener('click', drumKit.activePad);
@@ -145,7 +145,6 @@ drumKit.pads.forEach(pad => {
 });
 
 drumKit.playBtn.addEventListener('click', () =>{
-    //this.playBtn.classList.toggle('play-stop');
     drumKit.updateBtn();
     drumKit.start();
 });
