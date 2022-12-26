@@ -118,7 +118,6 @@ class DrumKit{
     }
     changeTempo(e){
         const tempoText = document.querySelector('.tempo-nr');
-        
         tempoText.innerText = e.target.value;
     }
 
